@@ -1,5 +1,5 @@
 # Crowdfunding_ETL
-project 2
+project 2 - collaborators: Kathy Parrott & Natalia Phipps
 
 # Project Overview
 The ETL mini project focused on building an ETL (extract, transform, load) pipeline using Python, Pandas, and Python dictionary methods to extract and transform the data. After the data was transformed properly, each dataframe was exported to a separate csv file. These csv files were used to create and ERD. Lastly, using our knowledge and skills of data engineering we used SQL to create a relational database for the four csv files.
