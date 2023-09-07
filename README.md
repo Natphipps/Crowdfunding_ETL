@@ -13,9 +13,11 @@ The jupyter notebook can be found in ETL_Mini_Project_KParrot_NPhipps.ipynb. The
 - Lastly we created the two dataframes using pandas.
 
 - category dataframe:
+  
 ![image](https://github.com/Natphipps/Crowdfunding_ETL/assets/130694752/7374a644-2ae5-4c8e-8963-00e3d26517b1)
 
 - subcategory dataframe:
+  
 ![image](https://github.com/Natphipps/Crowdfunding_ETL/assets/130694752/19f136c3-ce53-4600-ab89-1b7845d8a2bc)
 
 
@@ -27,7 +29,8 @@ The jupyter notebook can be found in ETL_Mini_Project_KParrot_NPhipps.ipynb. The
 - Unwanted columns were dropped.
 
 - campaign dataframe:
-- ![image](https://github.com/Natphipps/Crowdfunding_ETL/assets/130694752/c12e4f5a-c934-4b0a-8974-74b3ae9cecac)
+  
+![image](https://github.com/Natphipps/Crowdfunding_ETL/assets/130694752/c12e4f5a-c934-4b0a-8974-74b3ae9cecac)
 
 # creating contacts dataframe
 
@@ -37,12 +40,14 @@ The jupyter notebook can be found in ETL_Mini_Project_KParrot_NPhipps.ipynb. The
 - The name column was split into first_name, and last_name columns.
 
 - contacts dataframe:
-  ![image](https://github.com/Natphipps/Crowdfunding_ETL/assets/130694752/2ec6c39b-4c1d-460f-af2f-7bc2e03cb853)
+  
+![image](https://github.com/Natphipps/Crowdfunding_ETL/assets/130694752/2ec6c39b-4c1d-460f-af2f-7bc2e03cb853)
 
 
 # Create the crowdfunding database
 
 - After inspecting the csv files, the following ERD was created:
+
 ![Crowdfunding_ETL_ERD](https://github.com/Natphipps/Crowdfunding_ETL/assets/130694752/b4be3bef-958a-4d6f-b5f1-82e056fa2b64)
 
 - We used the information from the ERD to create a table schema for each csv file. The table schema can be found in the crowdfunding_db_schema.sql file.
@@ -50,15 +55,19 @@ The jupyter notebook can be found in ETL_Mini_Project_KParrot_NPhipps.ipynb. The
 - The data from each csv was imported into their corresponding SQL table.
 
 - subcategory table:
-  ![image](https://github.com/Natphipps/Crowdfunding_ETL/assets/130694752/fcd53014-e5cd-448c-a5b5-41c66958dd21)
+
+![image](https://github.com/Natphipps/Crowdfunding_ETL/assets/130694752/fcd53014-e5cd-448c-a5b5-41c66958dd21)
 
 - category table:
+
 ![image](https://github.com/Natphipps/Crowdfunding_ETL/assets/130694752/bacffa24-0e10-4973-b731-1e842a953ecc)
 
 - contacts table:
+
 ![image](https://github.com/Natphipps/Crowdfunding_ETL/assets/130694752/b8b63dda-8ce9-4fd9-b77a-ff54dc31d7f7)
 
 - campaign table:
+
 ![image](https://github.com/Natphipps/Crowdfunding_ETL/assets/130694752/0e81448f-803e-49ff-84a1-60d9e752d5d6)
 
 
